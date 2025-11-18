@@ -8,6 +8,8 @@ This project investigates:
 
 The workflow combines data processing, statistical analysis, geospatial visualization, and advanced mathematical modeling.
 
+---
+
 ## 🥇 PART I — Life Expectancy Analysis
 
 ### 🎯 Objectives
@@ -33,9 +35,8 @@ All datasets were cleaned, harmonized, and matched using country names and ISO3 
 
 ---
 
-### 🧹 Data Preparation
+### 🧹 Data Processing
 
-#### Main preprocessing steps
 - Removal of duplicates, missing values, and inconsistent entries  
 - Selection of relevant variables:  
   **Country**, **Year**, **Age**, **Sex**, **eₓ**  
@@ -60,7 +61,6 @@ All datasets were cleaned, harmonized, and matched using country names and ISO3 
 - Regional or continent-level comparisons  
 - Ranking tables (Top 10 / Bottom 10 life expectancy values)
 
----
 
 ### 🌍 Choropleth Maps
 
@@ -77,6 +77,8 @@ Maps are produced considering any chosen age (e.g., e(0), e(65), etc.) for:
 - Male + Female
 
 All outputs images are saved in *outputs/*
+
+---
 
 ## 🥈 PART II — Age Bound (Maximum Lifespan)
 
@@ -125,7 +127,7 @@ To validate the GPD fit and the threshold choice, we rely on:
 - **Stability plots** for ξ  
 - **Threshold sensitivity analysis**
 
-
+---
 
 ```mermaid
 mindmap
