@@ -176,3 +176,27 @@ mindmap
             Résultats principaux
             Limites & perspectives
 ```
+
+
+## 🧱 Project Structure
+
+```
+life
+📁 data/
+    HLD_database.csv
+    HLD_database.csv
+    
+
+📁 scripts/
+    LifeExpectancyHLD.R          # Ongoing
+    LifeExpectancyHMD.R          # Ongoing
+    evt_age_bound.R              # Future
+
+📁 outputs/
+    hld_outputs/                
+    hMd_outputs/
+    evt_results/                  
+
+📄 README.md
+
+```
